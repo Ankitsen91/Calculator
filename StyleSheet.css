@@ -1,0 +1,64 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+    font-family:'Arial Rounded MT';
+    box-sizing:border-box;
+}
+
+
+.contaner {
+
+    width:100%;
+    height:100vh;
+    background:url(http://localhost:2018/mountain-8012898_1920.jpg );
+    display:flex;
+    align-items:center;
+    justify-content:center;s
+
+}
+.calcutater{
+    background:url(http://localhost:2018/meal-g429320a58_1920.jpg);
+    padding:20px;
+    border-radius:10px;
+    background-attachment:fixed;
+    background-position:top;
+    background-repeat:no-repeat;
+}
+.calcutater FORM INPUT{
+    border:0;
+    outline:0;
+    width:60px;
+    height:60px;
+    border-radius:10px;
+    -webkit-box-shadow: 8px 8px 10px darkred;
+    background:-webkit-transparent;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    margin:10px;
+}
+ .display{
+     width:330px;
+    display:-webkit-flex;
+    justify-content:flex-end;
+    margin:20px 0px;
+    
+}
+ .display input{
+    
+    text-align:right;
+    flex:1;
+    font-size:45px;
+    box-shadow: none;
+}
+
+ form input.equal{
+    width:145px;
+
+}
+ form input.operator
+ {
+     color:darkcyan;
+ }
+
+ 
